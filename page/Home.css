@@ -1,0 +1,82 @@
+/* Home.css */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.feature-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card-image {
+  height: 150px;
+  object-fit: cover;
+}
+
+.feature-card-content {
+  padding: 20px;
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
+/* Color Definitions */
+.text-primary {
+  color: #2c3e50; /* Midnight Blue */
+}
+
+.bg-secondary {
+  background-color: #c9c9c9; /* Pale Silver */
+}
+
+.btn-accent {
+  background-color: #6f27cc; /* Electric Indigo */
+  color: #ffffff; /* White */
+}
+
+.btn-accent:hover {
+  background-color: #4a0a9c; /* Darker shade of Electric Indigo */
+}
+
+.btn-highlight {
+  background-color: #ff4040; /* Coral Red */
+  color: #ffffff; /* White */
+}
+
+.btn-highlight:hover {
+  background-color: #d63031; /* Darker shade of Coral Red */
+}

@@ -1,0 +1,33 @@
+/* Header.css */
+.nav-link {
+    position: relative;
+    padding: 8px 12px;
+    color: #333; /* Default color */
+    text-decoration: none;
+  }
+  
+  .nav-link:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: silver;
+    border-radius: 2px;
+  }
+  
+  .nav-link.home {
+    color: black; /* Change color of the Home link */
+  }
+  
+  /* Header.css */
+
+.logo-container {
+  border: 2px solid transparent; /* Initially transparent border */
+  transition: border-color 0.3s ease-in-out; /* Smooth transition for border color change */
+}
+
+.logo-container:hover {
+  border-color: silver; /* Silver border color on hover */
+}
